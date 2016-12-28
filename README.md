@@ -17,3 +17,4 @@
 | mesecons | https://github.com/Jeija/minetest-mod-mesecons.git | - |
 | pipeworks | https://github.com/minetest-mods/pipeworks.git | - |
 | moremesecons | https://github.com/minetest-mods/MoreMesecons.git | - |
+| digilines | https://github.com/minetest-mods/digilines.git | - |
