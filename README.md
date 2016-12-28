@@ -34,3 +34,4 @@
 | bees | https://github.com/bas080/bees.git | - |
 | caverealms | https://github.com/HeroOfTheWinds/minetest-caverealms.git | - |
 | currency | https://github.com/minetest-mods/currency.git | - |
+| memorandum | https://github.com/Mossmanikin/memorandum.git | - |
