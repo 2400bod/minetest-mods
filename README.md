@@ -25,3 +25,4 @@
 | nixie_tubes | https://github.com/minetest-mods/nixie_tubes.git | - |
 | plantlife | https://github.com/minetest-mods/plantlife_modpack.git | - |
 | prefab | https://github.com/minetest-mods/prefab.git | - |
+| unifieddyes | https://github.com/minetest-mods/unifieddyes.git | - |
