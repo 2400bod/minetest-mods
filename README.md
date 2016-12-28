@@ -45,3 +45,4 @@
 | ufos | https://github.com/Zeg9/minetest-ufos.git | - |
 | unifiedbricks | https://github.com/wowiamdiamonds/unifiedbricks.git | - |
 | windmill | https://github.com/Sokomine/windmill.git | - |
+| worldedit | https://github.com/Uberi/Minetest-WorldEdit.git | - |
