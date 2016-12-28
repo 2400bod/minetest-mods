@@ -32,3 +32,4 @@
 | vector_extras | https://github.com/HybridDog/vector_extras.git | - |
 | 3d_armor | https://github.com/stujones11/minetest-3d_armor.git | - |
 | bees | https://github.com/bas080/bees.git | - |
+| caverealms | https://github.com/HeroOfTheWinds/minetest-caverealms.git | - |
