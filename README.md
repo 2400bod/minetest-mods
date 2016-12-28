@@ -12,3 +12,4 @@
 | intllib | https://github.com/minetest-mods/intllib.git | - |
 | biome_lib | https://github.com/minetest-mods/biome_lib.git | - |
 | unified_inventory | https://github.com/minetest-technic/unified_inventory.git | - |
+| datastorage | https://github.com/minetest-technic/datastorage.git | - |
