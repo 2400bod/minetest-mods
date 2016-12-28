@@ -42,3 +42,4 @@
 | travelnet | https://github.com/Sokomine/travelnet.git | - |
 | teleport-request | https://github.com/ChaosWormz/teleport-request.git | - |
 | u_skins | https://github.com/minetest-technic/unified_inventory.git | - |
+| ufos | https://github.com/Zeg9/minetest-ufos.git | - |
