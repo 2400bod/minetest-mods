@@ -40,7 +40,6 @@
 | pyramids | https://github.com/BlockMen/pyramids.git | - |
 | streets | https://github.com/webD97/streets.git | - |
 | travelnet | https://github.com/Sokomine/travelnet.git | - |
-| teleport-request | https://github.com/ChaosWormz/teleport-request.git | - |
 | ufos | https://github.com/Zeg9/minetest-ufos.git | - |
 | unifiedbricks | https://github.com/wowiamdiamonds/unifiedbricks.git | - |
 | windmill | https://github.com/Sokomine/windmill.git | - |
