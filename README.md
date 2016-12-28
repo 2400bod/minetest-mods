@@ -19,3 +19,4 @@
 | moremesecons | https://github.com/minetest-mods/MoreMesecons.git | - |
 | digilines | https://github.com/minetest-mods/digilines.git | - |
 | letters | https://github.com/minetest-mods/letters.git | - |
+| moretrees | https://github.com/minetest-mods/moretrees.git | - |
