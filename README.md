@@ -14,3 +14,4 @@
 | unified_inventory | https://github.com/minetest-technic/unified_inventory.git | - |
 | datastorage | https://github.com/minetest-technic/datastorage.git | - |
 | framedglass | https://github.com/minetest-technic/framedglass.git | - |
+| mesecons | https://github.com/Jeija/minetest-mod-mesecons.git | - |
