@@ -48,3 +48,4 @@
 | worldedit | https://github.com/Uberi/Minetest-WorldEdit.git | - |
 | hudbars | http://repo.or.cz/minetest_hudbars.git | - |
 | hbhunger | http://repo.or.cz/minetest_hbhunger.git | - |
+| hbarmor | http://repo.or.cz/minetest_hbarmor.git | - |
