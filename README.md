@@ -37,3 +37,4 @@
 | memorandum | https://github.com/Mossmanikin/memorandum.git | - |
 | digiline_stuff | https://github.com/jogag/digiline-stuff.git | - |
 | digiterm | https://github.com/hdastwb/digiterm.git | - |
+| pyramids | https://github.com/BlockMen/pyramids.git | - |
