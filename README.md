@@ -16,3 +16,4 @@
 | framedglass | https://github.com/minetest-technic/framedglass.git | - |
 | mesecons | https://github.com/Jeija/minetest-mod-mesecons.git | - |
 | pipeworks | https://github.com/minetest-mods/pipeworks.git | - |
+| moremesecons | https://github.com/minetest-mods/MoreMesecons.git | - |
