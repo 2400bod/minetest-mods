@@ -15,3 +15,4 @@
 | datastorage | https://github.com/minetest-technic/datastorage.git | - |
 | framedglass | https://github.com/minetest-technic/framedglass.git | - |
 | mesecons | https://github.com/Jeija/minetest-mod-mesecons.git | - |
+| pipeworks | https://github.com/minetest-mods/pipeworks.git | - |
