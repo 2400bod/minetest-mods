@@ -44,3 +44,4 @@
 | u_skins | https://github.com/minetest-technic/unified_inventory.git | - |
 | ufos | https://github.com/Zeg9/minetest-ufos.git | - |
 | unifiedbricks | https://github.com/wowiamdiamonds/unifiedbricks.git | - |
+| windmill | https://github.com/Sokomine/windmill.git | - |
