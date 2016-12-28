@@ -49,3 +49,4 @@
 | hbhunger | http://repo.or.cz/minetest_hbhunger.git | - |
 | hbarmor | http://repo.or.cz/minetest_hbarmor.git | - |
 | u_skins | https://github.com/dmonty2/minetest-u_skinsdb.git | - |
+| smartfs | https://github.com/minetest-mods/smartfs.git | - |
