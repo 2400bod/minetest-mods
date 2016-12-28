@@ -3,16 +3,16 @@
 | mod | source | changed |
 | --- | --- | --- |
 | areas | https://github.com/ShadowNinja/areas.git | default settings |
+| biome_lib | https://github.com/minetest-mods/biome_lib.git | - |
 | craft_guide | https://github.com/cornernote/minetest-craft_guide.git | - |
+| datastorage | https://github.com/minetest-technic/datastorage.git | - |
+| homedecor | https://github.com/minetest-mods/homedecor_modpack.git | - |
+| intllib | https://github.com/minetest-mods/intllib.git | - |
 | item_drop | https://github.com/PilzAdam/item_drop.git | logic drop/pick up |
 | markers | https://github.com/Sokomine/markers.git | default settings |
 | moreblocks | https://github.com/minetest-mods/moreblocks.git | - |
 | moreores | https://github.com/minetest-mods/moreores.git | - |
-| homedecor | https://github.com/minetest-mods/homedecor_modpack.git | - |
-| intllib | https://github.com/minetest-mods/intllib.git | - |
-| biome_lib | https://github.com/minetest-mods/biome_lib.git | - |
 | unified_inventory | https://github.com/minetest-technic/unified_inventory.git | - |
-| datastorage | https://github.com/minetest-technic/datastorage.git | - |
 | framedglass | https://github.com/minetest-technic/framedglass.git | - |
 | mesecons | https://github.com/Jeija/minetest-mod-mesecons.git | - |
 | pipeworks | https://github.com/minetest-mods/pipeworks.git | - |
@@ -41,7 +41,6 @@
 | streets | https://github.com/webD97/streets.git | - |
 | travelnet | https://github.com/Sokomine/travelnet.git | - |
 | teleport-request | https://github.com/ChaosWormz/teleport-request.git | - |
-| u_skins | https://github.com/minetest-technic/unified_inventory.git | - |
 | ufos | https://github.com/Zeg9/minetest-ufos.git | - |
 | unifiedbricks | https://github.com/wowiamdiamonds/unifiedbricks.git | - |
 | windmill | https://github.com/Sokomine/windmill.git | - |
