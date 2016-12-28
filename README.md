@@ -30,3 +30,4 @@
 | blox | https://github.com/minetest-mods/blox.git | - |
 | technic | https://github.com/minetest-technic/technic.git | - |
 | vector_extras | https://github.com/HybridDog/vector_extras.git | - |
+| 3d_armor | https://github.com/stujones11/minetest-3d_armor.git | - |
