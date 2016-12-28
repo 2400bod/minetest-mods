@@ -24,3 +24,4 @@
 | signs_lib | https://github.com/minetest-mods/signs_lib.git | - |
 | nixie_tubes | https://github.com/minetest-mods/nixie_tubes.git | - |
 | plantlife | https://github.com/minetest-mods/plantlife_modpack.git | - |
+| prefab | https://github.com/minetest-mods/prefab.git | - |
