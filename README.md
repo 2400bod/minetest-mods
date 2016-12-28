@@ -10,3 +10,4 @@
 | moreores | https://github.com/minetest-mods/moreores.git | - |
 | homedecor | https://github.com/minetest-mods/homedecor_modpack.git | - |
 | intllib | https://github.com/minetest-mods/intllib.git | - |
+| biome_lib | https://github.com/minetest-mods/biome_lib.git | - |
