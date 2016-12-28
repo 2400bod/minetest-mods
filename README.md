@@ -8,3 +8,4 @@
 | markers | https://github.com/Sokomine/markers.git | default settings |
 | moreblocks | https://github.com/minetest-mods/moreblocks.git | - |
 | moreores | https://github.com/minetest-mods/moreores.git | - |
+| homedecor | https://github.com/minetest-mods/homedecor_modpack.git | - |
