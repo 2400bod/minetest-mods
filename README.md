@@ -49,3 +49,4 @@
 | hbarmor | http://repo.or.cz/minetest_hbarmor.git | - |
 | smartfs | https://github.com/minetest-mods/smartfs.git | - |
 | tpr | https://github.com/ChaosWormz/teleport-request.git | - |
+| u_skins | https://github.com/dmonty2/minetest-u_skinsdb.git | - |
