@@ -28,3 +28,4 @@
 | unifieddyes | https://github.com/minetest-mods/unifieddyes.git | - |
 | coloredwood | https://github.com/minetest-mods/coloredwood.git | - |
 | blox | https://github.com/minetest-mods/blox.git | - |
+| technic | https://github.com/minetest-technic/technic.git | - |
