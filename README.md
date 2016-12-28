@@ -46,3 +46,4 @@
 | unifiedbricks | https://github.com/wowiamdiamonds/unifiedbricks.git | - |
 | windmill | https://github.com/Sokomine/windmill.git | - |
 | worldedit | https://github.com/Uberi/Minetest-WorldEdit.git | - |
+| hudbars | http://repo.or.cz/minetest_hudbars.git | - |
