@@ -6,4 +6,5 @@
 | craft_guide | https://github.com/cornernote/minetest-craft_guide.git | - |
 | item_drop | https://github.com/PilzAdam/item_drop.git | logic drop/pick up |
 | markers | https://github.com/Sokomine/markers.git | default settings |
+| moreblocks | https://github.com/minetest-mods/moreblocks.git | - |
 | moreores | https://github.com/minetest-mods/moreores.git | - |
