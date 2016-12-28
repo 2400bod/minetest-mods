@@ -21,3 +21,4 @@
 | letters | https://github.com/minetest-mods/letters.git | - |
 | moretrees | https://github.com/minetest-mods/moretrees.git | - |
 | awards | https://github.com/minetest-mods/awards.git | - |
+| signs_lib | https://github.com/minetest-mods/signs_lib.git | - |
