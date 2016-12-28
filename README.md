@@ -29,3 +29,4 @@
 | coloredwood | https://github.com/minetest-mods/coloredwood.git | - |
 | blox | https://github.com/minetest-mods/blox.git | - |
 | technic | https://github.com/minetest-technic/technic.git | - |
+| vector_extras | https://github.com/HybridDog/vector_extras.git | - |
