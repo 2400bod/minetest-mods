@@ -2,9 +2,9 @@
 travelnet.MAX_STATIONS_PER_NETWORK = 24;
 
 -- set this to true if you want a simulated beam effect
-travelnet.travelnet_effect_enabled = false;
+travelnet.travelnet_effect_enabled = true;
 -- set this to true if you want a sound to be played when the travelnet is used
-travelnet.travelnet_sound_enabled  = false;
+travelnet.travelnet_sound_enabled  = true;
 
 -- if you set this to false, travelnets cannot be created
 -- (this may be useful if you want nothing but the elevators on your server)
@@ -63,5 +63,14 @@ travelnet.allow_travel = function( player_name, owner_name, network_name, statio
    --    " on network "..tostring( network_name ).." owned by "..tostring( owner_name ).." in order to travel to "..
    --    tostring( station_name_target )..".");
 
-   return true;
+	-- Cost teleport 5Mg (mod currency)
+	local inv = minetest.get_inventory({type="player", name=player_name})
+
+	if inv:contains_item("main", "currency:minegeld_5") then
+		inv:remove_item("main", "currency:minegeld_5");
+		return true;
+	else
+		minetest.chat_send_player(player_name, "You not have 5Mg for teleportation.")
+		return false;
+	end
 end

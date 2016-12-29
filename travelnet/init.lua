@@ -363,6 +363,29 @@ travelnet.add_target = function( station_name, network_name, pos, player_name, m
       anz = anz + 1;
    end
 
+	local zarnica = 0;
+	-- http://minetest.zarnica.org.ua
+	-- in minetest.conf set 'travelnet_zarnica = true' for special action travelnet
+	-- 'travelnet_zarnica_range = 50' - range "protected" travelnets
+	if (minetest.setting_get("travelnet_zarnica") and minetest.setting_get("static_spawnpoint")) then
+		spawn_pos = minetest.setting_get_pos("static_spawnpoint");
+		range = minetest.setting_get("travelnet_zarnica_range") or 50;
+		if (
+			math.abs(pos.x - spawn_pos.x) < range and
+			math.abs(pos.y - spawn_pos.y) < range and
+			math.abs(pos.z - spawn_pos.z) < range
+		) then
+			zarnica = 1;
+		end
+	end
+
+	-- if no station in network and zarnica enabled
+	if (anz == 0 and zarnica == 1) then
+		minetest.chat_send_player(player_name,"ERROR: You should add yet another station in the network, before you append this the station.");
+		return;
+	end
+
+
    -- we don't want too many stations in the same network because that would get confusing when displaying the targets
    if( anz+1 > travelnet.MAX_STATIONS_PER_NETWORK ) then
       minetest.chat_send_player(player_name, "Error: Network '"..network_name.."' already contains the maximum number (="
@@ -394,6 +417,37 @@ travelnet.add_target = function( station_name, network_name, pos, player_name, m
 
       -- save the updated network data in a savefile over server restart
       travelnet.save_data();
+
+	-- http://minetest.zarnica.org.ua
+	if ( zarnica == 1 ) then
+		-- check near mailbox
+		local minp = {x=pos.x-1, y=pos.y+1, z=pos.z-1};
+		local maxp = {x=pos.x+1, y=pos.y+1, z=pos.z+1};
+		local mailboxes = minetest.find_nodes_in_area(minp, maxp, 'inbox:empty');
+		-- set owner of mailbox as owner travelnet
+		for _, pos1 in pairs(mailboxes) do
+			local meta1 = minetest.get_meta(pos1);
+			meta1:set_string('owner', owner_name);
+			meta1:set_string("infotext", owner_name.."'s Mailbox");
+		end
+
+		-- enable lightstone above travelnet
+		local pos1 = {x=pos.x, y=pos.y+2, z=pos.z};
+		local node = minetest.get_node(pos1);
+
+		if      (node.name == 'mesecons_lightstone:lightstone_red_off') then
+			node.name = 'mesecons_lightstone:lightstone_red_on';
+		elseif  (node.name == 'mesecons_lightstone:lightstone_yellow_off') then
+			node.name = 'mesecons_lightstone:lightstone_yellow_on';
+		elseif  (node.name == 'mesecons_lightstone:lightstone_green_off') then
+			node.name = 'mesecons_lightstone:lightstone_green_on'
+		elseif  (node.name == 'mesecons_lightstone:lightstone_blue_off') then
+			node.name = 'mesecons_lightstone:lightstone_blue_on';
+		end
+
+		minetest.swap_node(pos1, node);
+	end
+
    end
 end
 
