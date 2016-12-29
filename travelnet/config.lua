@@ -63,5 +63,14 @@ travelnet.allow_travel = function( player_name, owner_name, network_name, statio
    --    " on network "..tostring( network_name ).." owned by "..tostring( owner_name ).." in order to travel to "..
    --    tostring( station_name_target )..".");
 
-   return true;
+	-- Cost teleport 5Mg (mod currency)
+	local inv = minetest.get_inventory({type="player", name=player_name})
+
+	if inv:contains_item("main", "currency:minegeld_5") then
+		inv:remove_item("main", "currency:minegeld_5");
+		return true;
+	else
+		minetest.chat_send_player(player_name, "You not have 5Mg for teleportation.")
+		return false;
+	end
 end
